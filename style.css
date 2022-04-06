@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-container {
+  margin: 0 10%;
+}
+header {
+  background: #1f2937;
+  color: #fff;
+  padding-top: 5px;
+}
+.nav-items .nav-link {
+  display: flex;
+}
+
+.nav-items .nav-link li {
+  flex-direction: row;
+  margin: 0 20px;
+  position: relative;
+  left: 50%;
+  bottom: 40px;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
