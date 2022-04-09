@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 .header-container {
   margin: 0 10%;
@@ -11,6 +12,10 @@ header {
   color: #fff;
   padding-top: 5px;
 }
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
 .nav-items .nav-link {
   display: flex;
 }
@@ -19,7 +24,7 @@ header {
   flex-direction: row;
   margin: 0 20px;
   position: relative;
-  left: 50%;
+  left: 60%;
   bottom: 40px;
   list-style: none;
 }
@@ -27,5 +32,56 @@ header {
 li a {
   text-decoration: none;
   font-size: 18px;
+  font-weight: bold;
   color: #e5e7eb;
+  margin: 40px;
 }
+li a:hover {
+   padding: 5px 15px;
+   border: 3px #f9faf8 solid;
+   font-weight: bold;
+   border-radius: 6px;
+}
+.header-info {
+  max-width: 50%;
+  position: relative;
+  top: 75px;
+}
+.header-info h1 {
+      font-size: 48px ;
+      color: #f9faf8;
+}
+
+.header-info p {
+  font-size: 28px;
+}
+#button {
+  background: #3882f6;
+  padding: 10px 30px;
+  text-align: center;
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px;
+  position: relative;
+  top: 55px;
+  left: 30%;
+}
+button:hover {
+  border: 3px #f9faf8 solid;
+}
+.image-holder {
+  position: relative;
+  left: 55%;
+  bottom: 250px; 
+}
+
+img {
+  width: 600px;
+  height: 400px;
+  border-radius: 6px;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border: 3px #f9faf8 solid;
+}
+
